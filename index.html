@@ -1,51 +1,45 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pl">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Netflix Style Page</title>
+  <meta charset="UTF-8">
+  <title>Netflix Mockup</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <h1>Netflix</h1>
-        <nav>
-            <a href="#">Home</a>
-            <a href="#">TV Shows</a>
-            <a href="#">Movies</a>
-            <a href="#">New & Popular</a>
-            <a href="#">My List</a>
+  <div class="container">
+    <div class="netflix-window">
+      <div class="netflix-header">
+        <span class="netflix-logo">NETFLIX</span>
+        <nav class="netflix-nav">
+          <span>Strona główna</span>
+          <span>Seriale i programy</span>
+          <span>Filmy</span>
+          <span>Nowości i popularne</span>
+          <span>Moja lista</span>
         </nav>
-    </header>
-    <main>
-        <section>
-            <h2>Featured</h2>
-            <div>
-                <img src="featured.jpg" alt="Featured Movie" width="300">
-                <p>Description of the featured movie or show.</p>
-                <button>Play</button>
-                <button>More Info</button>
-            </div>
-        </section>
-        <section>
-            <h2>Trending Now</h2>
-            <div>
-                <img src="trending1.jpg" alt="Trending Movie 1" width="150">
-                <img src="trending2.jpg" alt="Trending Movie 2" width="150">
-                <img src="trending3.jpg" alt="Trending Movie 3" width="150">
-            </div>
-        </section>
-        <section>
-            <h2>Top Picks for You</h2>
-            <div>
-                <img src="top1.jpg" alt="Top Pick 1" width="150">
-                <img src="top2.jpg" alt="Top Pick 2" width="150">
-                <img src="top3.jpg" alt="Top Pick 3" width="150">
-            </div>
-        </section>
-    </main>
-    <footer>
-        <p>&copy; 2023 Netflix Clone. All rights reserved.</p>
-    </footer>
+        <div class="netflix-icons">
+          <span class="icon search"></span>
+          <span class="icon bell"></span>
+          <span class="icon user"></span>
+        </div>
+      </div>
+      <div class="main-content">
+        <div class="main-show">
+          <div class="show-title">Film<br>Bad</div>
+          <div class="show-buttons">
+            <button class="play-btn">Odtwórz</button>
+            <button class="info-btn">Więcej informacji</button>
+          </div>
+        </div>
+        <div class="recommendations">
+          <div class="rec rec1"></div>
+          <div class="rec rec2"></div>
+          <div class="rec rec3"></div>
+          <div class="rec rec4"></div>
+          <div class="rec rec5"></div>
+        </div>
+      </div>
+    </div>
+  </div>
 </body>
 </html>
